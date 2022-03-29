@@ -15,8 +15,8 @@
 
 
         function Multiplicar() {
-            let valor11 = parseInt(document.getElementById("txtn21").value) 
-            let valor12 = parseInt(document.getElementById("txtn22").value)
+            let valor11 = parseFloat(document.getElementById("txtn21").value) 
+            let valor12 = parseFloat(document.getElementById("txtn22").value)
             let multiplicar = valor11 * valor12
             let res2 = document.getElementById("res2")
             let msg2 = `O resultado da multiplicação entre ${valor11} e ${valor12} é ${multiplicar}`
@@ -33,8 +33,8 @@
         } 
 
         function Subtrair() {
-            let valor41 = parseInt(document.getElementById("txtn41").value) 
-            let valor42 = parseInt(document.getElementById("txtn42").value)
+            let valor41 = parseFloat(document.getElementById("txtn41").value) 
+            let valor42 = parseFloat(document.getElementById("txtn42").value)
             let subtrair = valor41 - valor42
             let res4 = document.getElementById("res4")
             let msg4 = `O resultado da subtração entre ${valor41} e ${valor42} é ${subtrair}`
