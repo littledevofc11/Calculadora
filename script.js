@@ -24,8 +24,8 @@
         } 
 
         function Dividir() {
-            let valor21 = parseInt(document.getElementById("txtn31").value) 
-            let valor22 = parseInt(document.getElementById("txtn32").value)
+            let valor21 = parseFloat(document.getElementById("txtn31").value) 
+            let valor22 = parseFloat(document.getElementById("txtn32").value)
             let dividir = valor21 / valor22
             let res3 = document.getElementById("res3")
             let msg3 = `O resultado da divisão entre ${valor21} e ${valor22} é ${dividir}`
